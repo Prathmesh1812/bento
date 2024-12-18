@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.grid-container{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 23% 24% 24% 23%;
+    grid-template-rows: auto auto auto auto auto auto;
+    gap: 2%;
+    padding: 5rem 0;
+}
+
+.item-1 img{
+    width: 200px;
+}
+
+.item-2 img{
+    width: 200px;
+}
+
+.item-1{
+    background-color: hsl(31, 66%, 93%);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "DM Sans";
+    grid-row: span 3;
+    align-content: center;
+    padding: 0 2rem;
+    border-radius: 10px;
+
+}
+
+.item-1 p{
+    font-size: 44px;
+    padding-bottom: 2rem;
+    line-height: 32px;
+    letter-spacing: -2px;
+}
+
+.color-1{
+    color: hsl(256, 67%, 59%);
+}
+
+.item-2{
+    background-color: hsl(256, 67%, 59%);
+    font-weight: 500;
+    font-family: "DM Sans";
+    grid-column: 2 / span 2;
+    grid-row: span 2;
+    align-content: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 3rem 0;
+}
+
+.p-6{
+    font-size: 68px;
+    line-height: 56px;
+    font-family: "DM Sans";
+    padding-bottom: 1.5rem;
+}
+
+.p-7{
+    font-size: 37px;
+    font-family: "DM Sans";
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: -1px;
+    padding-bottom: 3rem;
+}
+
+.color-2{
+    color: hsl(0, 0%, 100%);
+}
+
+.p-2{
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.color-3{
+    color: hsl(39, 100%, 71%);
+}
+
+.p-1{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "DM Sans";
+    padding: 0 2rem;
+    line-height: 19px;
+}
+
+.p-3{
+    color: hsl(0, 0%, 7%);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 2rem;
+    font-family: "DM Sans";
+}
+
+.item-3{
+    background-color: hsl(254, 88%, 90%);
+    grid-row: span 4;
+    overflow: hidden;
+    padding-top: 10%;
+    border-radius: 10px;    
+}
+
+.item-3 img{
+    width: 385px;
+    height: 355px;
+    padding-left: 12%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.item-6{
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 1;
+    grid-row: span 3;
+    align-content: center;
+    padding: 0 2rem;
+    border-radius: 8px;
+
+}
+
+.item-6 img{
+    width: 205px;  
+    padding-top: 1rem;  
+}
+
+.item-7{
+    background-color: hsl(0, 0%, 100%);
+    grid-row: span 2;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.item-7 img{
+    width: 200px;
+    padding-top: 2rem;
+}
+
+.item-8{
+    background-color: hsl(256, 67%, 59%);
+    grid-column: 3 / span 2;
+    display: flex;
+    grid-row: span 2;
+    border-radius: 10px;
+}
+
+.item-8 img{
+    width: 200px;
+    padding: 2rem;
+}
+
+.item-8 p{
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-family: "DM Sans";
+    font-size: 40px;
+    padding: 4rem 0 1rem;
+    line-height: 35px;
+}
+
+.p-4{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "DM Sans";
+}
+
+.p-5{
+    font-weight: 500;
+    font-family: "DM Sans";
+    font-size: 20px;
+}
+
+.item-5 img{
+    width: 220px;
+    transform: translate(30px, 21%);
+}
+
+.item-5{
+    grid-row: span 2;
+    background-color: hsl(39, 100%, 71%);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.item-5 p{
+    font-size: 30px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    line-height: 24px;
+    letter-spacing: -2px;
+}
+
+.item-4 img{
+    width: 345px;
+}
+
+.item-4{
+    grid-column: 2;
+    grid-row: span 2;
+    background-color: white;
+    border-radius: 8px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    overflow: hidden;
+}
+
+.item-4 p{
+    font-size: 35px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    padding-top: 1rem;
+    line-height: 30px;
+}
+
+/*------------------------ Responsive --------------------------------*/
+
+@media (max-width: 768px) {
+    .grid-container{
+        gap: 1%;
+        padding: 3rem 0;
+    }
+
+    .item-2{
+        grid-area: 1/span 4;
+        padding: 2rem;
+    }
+
+    .item-4{
+        grid-area: 2/span 4;
+        padding: 1rem;
+        overflow: visible;
+    }
+
+    .item-5{
+        grid-area: 3/span 4;
+        height: 230px;
+    }
+
+    .item-3{
+        grid-area: 4/span 4;
+        overflow: visible;
+    }
+
+    .item-8{
+        grid-area: 5/span 4;
+        display: grid;
+    }
+
+    .item-7{
+        grid-area: 6/span 4;
+    }
+
+    .item-1{
+        grid-area: 7/span 4;
+        padding: 2rem;
+    }
+
+    .item-6{
+        grid-area: 8/span 4;
+        padding: 1rem 2rem;
+    }
+
+    .p-6{
+        font-size: 45px;
+    }
+
+    .item-4 img{
+        width: 287px;
+    }
+
+    .item-4 p{
+        font-size: 22px;
+    }
+
+    .item-5 img{
+        width: 195px;
+        transform: translate(30px, 15%);
+    }
+
+    .item-5 p{
+        font-size: 28px;
+    }
+
+    .item-3 img{
+        width: 276px;
+        height: 300px;
+        padding-left: 8%;
+        padding-top: 7%;
+    }
+
+    .p-3{
+        font-size: 17px;
+        padding-bottom: 1rem;
+    }
+
+    .item-8 img{
+        padding: 2rem 4rem;
+    }
+
+    .item-8 p{
+        font-size: 30px;
+        padding: 0 4rem 1rem;
+        text-align: center;
+    }
+
+    .item-1 p{
+        font-size: 30px;
+        padding-bottom: 1rem;
+    }
+
+    .p-7{
+        font-size: 30px;
+        padding-bottom: 0;
+    }
+}
